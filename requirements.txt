@@ -11,3 +11,4 @@ matplotlib>=1.4.3
 pandas>=0.19
 click==8.0.1
 pickle-mixin
+joblib==1.0.0
