@@ -12,25 +12,28 @@ body {
   background-size: cover;
 </style>
 
-	<body>
+<body>
 
 	<header>
 		<div class="container">
 		<div id="brandname">
-			ML App
+			<center>Machine Learning App
 		</div>
-		<h2>Spam Detector For SMS Messages</h2>
+		<h2><center>Spam Detector</h2>
 		
 	</div>
 	</header>
 	
 
 
-		
+	<br><br><br><br>	
 	{% if prediction == 1%}
-	<h2 style="color:red;">Spam</h2>
+	<marquee width="40%" direction="right">
+	<h1 style="color:red;">Spam</h1></marquee>
 	{% elif prediction == 0%}
-	<h2 style="color:blue;">Not a Spam (It is a Ham)</h2>
+	<p><br><br><br><br><p>
+	<marquee width="85%" direction="right" height="30%">
+	<h2 style="color:green;">Not a Spam (It is a Ham)</h2>
 	{% endif %}
 
 	</div>
